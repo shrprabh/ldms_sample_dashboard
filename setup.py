@@ -12,9 +12,9 @@ setup(
         "ipython>=7.0.0",
     ],
     description="A simple IPython widget dashboard with static data",
-    author="Your Name",
-    author_email="your.email@example.com",
-    url="https://github.com/yourusername/ldms_sample_dashboard",
+    author="Shreyas Prabhakar",
+    author_email="shreyas.prabhakar97@gmail.com",
+    url="https://github.com/shrprabh/ldms_sample_dashboard",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
