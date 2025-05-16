@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ldms_sample_dashboard
+Version: 0.1.0
+Summary: A simple IPython widget dashboard with static data
+Home-page: https://github.com/shrprabh/ldms_sample_dashboard
+Author: Shreyas Prabhakar
+Author-email: shreyas.prabhakar97@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: ipywidgets>=7.6.0
+Requires-Dist: matplotlib>=3.4.0
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: pandas>=1.2.0
+Requires-Dist: ipython>=7.0.0

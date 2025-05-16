@@ -5,7 +5,8 @@ import pandas as pd
 from IPython.display import display
 
 def create_dashboard():
-     
+    """Create an interactive dashboard with static data"""
+    # Create some static sample data
     dates = pd.date_range('2023-01-01', periods=30)
     data = {
         'Temperature': np.random.normal(25, 5, 30),
@@ -30,7 +31,7 @@ def create_dashboard():
     
     output = widgets.Output()
     
-
+    # Define the update function
     def update_plot(*args):
         with output:
             output.clear_output(wait=True)
